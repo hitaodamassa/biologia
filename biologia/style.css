@@ -1,0 +1,79 @@
+body {
+ font-family: 'Arial', sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f4f4f4;
+ color: #333;
+}
+header {
+ background-color: #333;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+nav {
+ background-color: #333;
+ padding: 20px;
+}
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+nav li {
+ display: inline-block;
+ margin-right: 20px;
+}
+nav a {
+ color: #fff;
+ text-decoration: none;
+}
+main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+}
+section {
+ background-color: #fff;
+ padding: 20px;
+ margin-bottom: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ width: 80%;
+ max-width: 800px;
+}
+h1, h2 {
+ color: #333;
+}
+p {
+ color: #666;
+ line-height: 1.6;
+}
+
+#changeButton {
+ background-color: #4CAF50;
+ border: none;
+ color: white;
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+#changeButton:hover {
+ background-color: #3e8e41;
+
+#conceitos-basicos p {
+ font-size: 18px;
+ margin-bottom: 15px;
+}
+#conceitos-basicos p.changed {
+ font-size: 18px;
+ font-weight: bold;
+ color: #007bff;
+}
